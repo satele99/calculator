@@ -1,0 +1,24 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    
+}
+#output {
+    text-align: right;
+    height: 10%; 
+    font-size: 30px;
+} 
+#output > div {
+    margin-right: 5px;
+}
+#input-buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(4, 25%); 
+    height: 90%;
+}
