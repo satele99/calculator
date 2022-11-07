@@ -1,16 +1,19 @@
 body {
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center; 
 }
 .container {
     display: flex;
     flex-direction: column;
     width: 400px;
-    height: 400px;
+    height: 400px; 
+    border: 2px solid black;
     
 }
 #output {
     text-align: right;
-    height: 10%; 
+    height: 20%; 
     font-size: 30px;
 } 
 #output > div {
@@ -20,5 +23,9 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 25%);
     grid-template-rows: repeat(4, 25%); 
-    height: 90%;
+    height: 80%; 
+} 
+
+#division-symbol {
+    font-size: 23px;
 }
